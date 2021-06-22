@@ -56,9 +56,9 @@ spec:
                     spec:
                       additionalProperties:
                         type: object
-                        x-kubernetes-preserve-unknown-fields: true
                       description: Spec is the configuration map of custom resource.
                       type: object
+                      x-kubernetes-preserve-unknown-fields: true
                     state:
                       description: State is a flag to enable or disable service.
                       type: string
